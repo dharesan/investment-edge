@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/adobe_api/__init__.py
+src/adobe_api/auth.py
+src/adobe_api_auth_scaffold.egg-info/PKG-INFO
+src/adobe_api_auth_scaffold.egg-info/SOURCES.txt
+src/adobe_api_auth_scaffold.egg-info/dependency_links.txt
+src/adobe_api_auth_scaffold.egg-info/requires.txt
+src/adobe_api_auth_scaffold.egg-info/top_level.txt

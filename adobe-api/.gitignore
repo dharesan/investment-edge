@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# Sensitive credentials
+*OAuth Server-to-Server.json
+*.secret.json
+
+# Confidential input/output artifacts
+inputs/
+outputs/

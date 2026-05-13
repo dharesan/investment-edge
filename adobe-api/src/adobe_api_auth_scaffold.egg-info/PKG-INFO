@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: adobe-api-auth-scaffold
+Version: 0.1.0
+Summary: Small helper for Adobe IMS server-to-server authentication
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: requests<3,>=2.32
+
+# Adobe API Auth Scaffold
+
+This workspace contains Adobe server-to-server OAuth credentials and a small Python helper project for fetching an IMS access token.
+
+## Layout
+
+- `src/adobe_api/` contains the reusable auth helper.
+- `scripts/get_access_token.py` is the runnable entry point.
+- `761BlackAardwolf-4199879-OAuth Server-to-Server.json` is the Adobe credentials file.
+
+## Run
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python scripts/get_access_token.py --credentials-path "761BlackAardwolf-4199879-OAuth Server-to-Server.json"
+```
+
+The script prints the raw Adobe access token to standard output.
